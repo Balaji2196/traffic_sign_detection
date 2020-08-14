@@ -222,7 +222,7 @@ print('Test accuracy:', score[1])
 
 import requests
 from PIL import Image
-url = 'https://c8.alamy.com/comp/J2MRAJ/german-road-sign-bicycles-crossing-J2MRAJ.jpg'
+url = 'https://previews.123rf.com/images/bwylezich/bwylezich1608/bwylezich160800375/64914157-german-road-sign-slippery-road.jpg'
 r = requests.get(url, stream=True)
 img = Image.open(r.raw)
 plt.imshow(img, cmap=plt.get_cmap('gray'))
